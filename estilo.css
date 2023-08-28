@@ -6,11 +6,11 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #131212;
 }
 header {
-    background-color: #333; 
-    color: #fff; 
+    background-color: #1b1b1b; 
+    color: #f3f3f3; 
     text-align: center; 
     padding-top: 20px; 
     padding-bottom: 20px; 
@@ -29,17 +29,18 @@ nav li {
 nav a {
     text-decoration: none; 
     font-weight: bold; 
-    color: #fff; 
+    color: #e4dbdb; 
 }
 main {
     padding: 20px; 
     overflow: hidden; 
 }
 .card {
+    color: white;
     width: calc(33.33% - 20px);
     margin: 10px; 
     padding: 20px;
-    background-color: #fff;
+    background-color: #131212;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     float: left;
@@ -50,8 +51,8 @@ main {
 }
 
 .card button {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #333333;
     border: none;
     padding: 8px 16px;
     margin-top: 10px;
@@ -60,11 +61,11 @@ main {
 }
 
 .card button:hover {
-    background-color: #555;
+    background-color: #e4e1e1;
 }
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #f0e6e6;
+    color: #141212;
     text-align: center;
     padding: 1rem;
 }
